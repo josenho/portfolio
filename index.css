@@ -65,36 +65,35 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
-    .projetos {
-      background: var(--roxo);
-      flex-direction: column;
+    .projeto-video, .projeto-certificado, .projeto-trabalhos {
+      background-color: var(--roxo);
+      display: flex;
+      justify-content: space-between;
+      padding: 60px 10%;
       color: #222;
     }
 
-    .projetos h2 {
-      margin-bottom: 30px;
-      font-size: 2rem;
-    }
-
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
+    .projeto-trabalhos {
       justify-content: center;
-      gap: 20px;
+      text-align: center;
     }
 
-    .card {
-      background: #fff;
-      border-radius: 10px;
-      padding: 20px;
-      max-width: 300px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    .certificado img {
+      max-width: 400px;
+      height: auto;
+    }
+
+    .video video {
+      max-width: 400px;
     }
 
     .contato {
       background: var(--verde);
       flex-direction: column;
       text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .contato h2 {
